@@ -1,0 +1,139 @@
+.body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .Admin_login {
+	background-image: url('./images/back.jpeg');
+	background-size: cover;
+	min-height: 100vh;
+	margin: 0%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 420px;
+	height: 650px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 2px solid rgb(255, 94, 0);
+	border-radius: 15px;
+	padding-top: 40px; /* Adjust the value as needed */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .lo {
+	color: gold;
+	margin-bottom: 30px; }
+  
+  .label1 {
+	color: #a02d2d;
+	font-size: 2.3em;
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+	cursor: pointer;
+	
+  }
+  
+  .input1 {
+	width: 300px;
+	height: 40px;
+	background-color: fffff;
+	border: 2px solid rgb(12, 12, 12);
+	justify-content: center;
+	display: flex;
+	margin: 10px auto;
+	padding: 5px;
+	outline: none;
+	border-radius: 10px;
+  }
+  .button-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .button-container button {
+	text-decoration: underline;
+	background: none;
+	color: gold;
+	cursor: pointer;
+	border: none;
+	padding: 0;
+	margin-bottom: 10px;
+  }
+  
+  .button-container button:hover {
+	background: none;
+	transform: none;
+  }
+  
+  
+  
+  
+.login{
+	height: 480px;
+	background: #eee;
+	border-radius: 60% / 10%;
+	transform: translateY(-180px);
+	transition: .8s ease-in-out;
+	
+	
+}
+.login label{
+	color: #403b8a;
+	transform: scale(.6);
+}
+
+#chk:checked ~ .login{
+	transform: translateY(-500px);
+}
+#chk:checked ~ .login label{
+	transform: scale(1);	
+}
+#chk:checked ~ .signup label{
+	transform: scale(.6);
+}
+
+.front{
+    margin-left: 45%;
+	margin-top: 10px;
+}
+
+.login p{
+	color:rgb(95, 60, 60);
+	text-align: center;
+}
+
+ .signup p{
+	color:rgb(255, 7, 7);
+	text-align: center;
+}
+
+.dataerror1{
+	color: white !important;
+}
+.copyright{
+	padding: 30px;
+	background-color:#000000;
+}
+
+.copyright .icon i{
+	padding-left: 10px;
+	margin-right: 10px;
+}
+
+
+.copyright h5{
+	margin-top: 20px;
+	color: #5281a8;
+}
